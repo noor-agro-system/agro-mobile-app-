@@ -1,28 +1,28 @@
-[app]
+[التطبيق]التطبيق]
 
-# (str) Title of your application
+# (str) عنوان طلبك
 title = النظام الزراعي
 
-# (str) Package name
-package.name = agroapp
+# (str) اسم الحزمة
+الحزمة.الاسم = agroapp
 
-# (str) Package domain (needed for android/ios packaging)
+# (str) مجال الحزمة (مطلوب لتغليف Android / iOS)
 package.domain = org.agro
 
-# (str) Source code where the main.py lives
-source.dir = .
+# (str) شفرة المصدر حيث يعيش main.py
+المصدر.dir = .
 
-# (list) Source files to include (let empty to include all the files)
-source.include_exts = py,png,jpg,kv,atlas
+# (قائمة) ملفات المصدر لتضمينها (تترك فارغة لتشمل جميع الملفات)
+المصدر.include_exts = py,png,jpg,kv,atlas
 
-# (str) Application versioning (method 1)
-version = 1.0
+# (str) إصدار التطبيق (الطريقة 1)
+الإصدار = 1.0
 
-# (list) Application requirements
+# (قائمة) متطلبات التطبيق
 requirements = python3,kivy,sqlite3
 
 # (str) Supported orientation (one of landscape, sensorLandscape, portrait or all)
-orientation = portrait
+التوجه = صورة.
 
 # (bool) Indicate if the application should be fullscreen or not
 fullscreen = 0
